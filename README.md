@@ -1,4 +1,4 @@
-# MessageBus Application
+# Publisher-Subcriber Pattern Example Application
 
 ## Overview
 
