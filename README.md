@@ -143,3 +143,41 @@ public class Program
         Console.ReadLine();
     }
 }
+```
+
+## Running the Application
+
+### Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+
+### Steps
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Build the solution:**
+
+    ```bash
+    dotnet build
+    ```
+
+3. **Run the console application:**
+
+    ```bash
+    dotnet run --project <path-to-console-project>
+    ```
+    
+## Running Tests
+
+Unit tests are implemented using MSTest and can be run to verify the functionality of each component. Mocking is used to isolate dependencies and ensure that each unit is tested independently.
+
+To run the tests, use the following command in the terminal:
+
+```bash
+dotnet test
+
