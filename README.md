@@ -15,7 +15,7 @@ The solution demonstrates the following:
 ### Libraries
 
 1. **MessageBus**: Implements the core messaging functionality allowing topics to be subscribed to and messages to be published.
-2. **Common**: Contains shared components and interfaces used across the application, including the `IMessageBus` interface and `Topic` enum.
+2. **Common**: Contains shared components and interfaces used across the application.
 3. **Subscriber**: Implements the functionality for subscribing to topics and handling received messages.
 4. **Publisher**: Handles the publication of messages to topics.
 5. **DataTransformer**: Contains classes responsible for transforming data before it is published.
