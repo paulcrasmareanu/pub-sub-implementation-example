@@ -24,13 +24,13 @@ namespace Application
       subscriber2.Subscribe();
 
       // Publish initial messages
-      publisher.Publish(Topic.UPPER, "Hello UPPER");
+      publisher.Publish(Topic.UPPER, "hello world");
 
       // Unsubscribe Subscriber1 from UPPER
       subscriber1.Unsubscribe();
 
       // Publish messages again to see the effect of unsubscription
-      publisher.Publish(Topic.UPPER, "Another message for UPPER");
+      publisher.Publish(Topic.UPPER, "another message for hello world");
 
       Console.ReadLine();
     }

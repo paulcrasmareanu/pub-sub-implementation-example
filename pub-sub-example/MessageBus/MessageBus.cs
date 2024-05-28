@@ -26,6 +26,7 @@ namespace MessageBus
         _subscriptions[topic] = new List<EventHandler<MessageEventArgs>>();
       }
 
+      // Prevent duplicate same handler for the same topic
       var handlers = _subscriptions[topic];
       if (!handlers.Contains(handler))
       {

@@ -6,7 +6,7 @@ namespace DataTransformer
   {
     public string Transform(string input)
     {
-      return input.ToUpper();
+      return input?.ToUpper();
     }
   }
 }
